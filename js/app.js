@@ -16,11 +16,11 @@ alert(`Welcome to my site ${userName}! Let's play a guessing game, please answer
 
 let questionOneGuess = prompt('Do I have a daughter?').toLowerCase();
 
-if(questionOneGuess === 'y' || questionOneGuess === 'yes'){
+/* if(questionOneGuess === 'y' || questionOneGuess === 'yes'){
   alert('You are correct!');
 } else if(questionOneGuess === 'n' || questionOneGuess === 'no'){
   alert('Sorry you are wrong, I have a daughter');
-}
+} */
 
 
 
