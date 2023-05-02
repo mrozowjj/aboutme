@@ -1,0 +1,11 @@
+/* 
+   Used example from class as starting point: https://github.com/codefellows/seattle-code-201d100/blob/main/class-02/inclass-project-setup/css/style.css
+*/
+
+body {
+  background-color: darkgrey;
+}
+
+h1 {
+  font-size: 3vw;
+}
