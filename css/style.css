@@ -3,10 +3,12 @@
 */
 
 body {
+  text-align: center;
   background-color: darkgrey;
 
 }
 
 h1 {
   font-size: 3vw;
+  font-kerning: calc(5);
 }
