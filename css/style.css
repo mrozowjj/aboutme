@@ -12,3 +12,12 @@ h1 {
   font-size: 3vw;
   font-kerning: calc(5);
 }
+ol {
+	list-style: normal;
+  list-style-position: inside;
+}
+
+ul {
+	list-style: disc;
+  list-style-position: inside;
+}
