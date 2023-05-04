@@ -29,17 +29,20 @@ YesOrNoGame(Dog,yes); */
 let userCorrectGuesses = 0;
 
 alert(`Welcome to my site ${userName}! Let's play a guessing game, please answer yes/no OR y/n`);
-let questionOneGuess = prompt('Do I have a dog?').toLowerCase();
-if(questionOneGuess === 'y' || questionOneGuess === 'yes'){
-  alert('Sorry you are wrong, I don\'t have a dog');
-} else if(questionOneGuess === 'n' || questionOneGuess === 'no'){
-  alert('You are correct!');
-  userCorrectGuesses++;
+function questionOne(){
+  let questionOneGuess = prompt('Do I have a dog?').toLowerCase();
+  if(questionOneGuess === 'y' || questionOneGuess === 'yes'){
+    alert('Sorry you are wrong, I don\'t have a dog');
+  } else if(questionOneGuess === 'n' || questionOneGuess === 'no'){
+    alert('You are correct!');
+    userCorrectGuesses++;
+  }
+  else
+  {
+    alert('We can\'t play the game because you didn\'t input a yes or a no');
+  }
 }
-else
-{
-  alert('We can\'t play the game because you didn\'t input a yes or a no');
-}
+questionOne();
 
 let questionTwoGuess = prompt('Do I have a cat?').toLowerCase();
 if(questionTwoGuess === 'y' || questionTwoGuess === 'yes'){
