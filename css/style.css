@@ -11,6 +11,7 @@ body {
 h1 {
   font-size: 3vw;
   font-kerning: calc(5);
+  margin: 1rem;
 }
 ol {
 	list-style: normal;
@@ -20,4 +21,11 @@ ol {
 ul {
 	list-style: disc;
   list-style-position: inside;
+}
+
+section {
+  width: 80%;
+  margin: 5rem auto 0 auto;
+  height: auto;
+  position: static;
 }
